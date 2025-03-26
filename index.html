@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Emanuele Morgillo</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('/immagine\ meme.jpg');
+  min-height: 100%;
+}
+</style>
+</head>
+<body>
+
+<!--bello vero l'ho fatto proprio bene anche se ho scopiazzato tanto porca vacca Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+  <div class="bgimg"></div>
+</nav>
+
+<!--bello vero l'ho fatto proprio bene anche se ho scopiazzato tanto porca vacca Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Le mie Opere</a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">La mia Storia</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contattami</a>
+  </div>
+</nav>
+
+<!--bello vero l'ho fatto proprio bene anche se ho scopiazzato tanto porca vacca Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+
+  <!--bello vero l'ho fatto proprio bene anche se ho scopiazzato tanto porca vacca Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  <!--bello vero l'ho fatto proprio bene anche se ho scopiazzato tanto porca vacca Header -->
+  <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+    <h1 class="w3-jumbo"><b>Emanuele Morgillo</b></h1>
+    <p>Disegnatore, Fotografo, Programmatore e Web Designer.</p>
+    <img src="/progetto9.0.jpg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+    <img src="/progetto9.1.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+    <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+      <i class="fa fa-download"></i> Scarica il curriculum
+    </button>
+  </header>
+
+  <!--bello vero l'ho fatto proprio bene anche se ho scopiazzato tanto porca vacca Portfolio Section -->
+  <div class="w3-padding-32 w3-content" id="portfolio">
+    <h2 class="w3-text-grey">Le mie Opere</h2>
+    <hr class="w3-opacity">
+
+    <!--bello vero l'ho fatto proprio bene anche se ho scopiazzato tanto porca vacca Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="/progetto9.11.png" style="width:100%">
+        <img src="/progetto9.1.jpg" style="width:100%">
+        <img src="/progetto9.9.png" style="width:100%">
+        <img src="/progetto9.0.jpg" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="/progetto9.10.png" style="width:100%">
+        <img src="/progetto9.4.jpg" style="width:100%">
+        <img src="/progetto9.10.png" style="width:100%">
+        <img src="/progetto9.3.jpg" style="width:100%">
+      </div>
+    <!--bello vero l'ho fatto proprio bene anche se ho scopiazzato tanto porca vacca End photo grid -->
+    </div>
+  <!--bello vero l'ho fatto proprio bene anche se ho scopiazzato tanto porca vacca End Portfolio Section -->
+  </div>
+
+  <!--bello vero l'ho fatto proprio bene anche se ho scopiazzato tanto porca vacca About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+    <h2>La mia Storia</h2>
+    <hr class="w3-opacity">
+    <p>Il mio percorso nel mondo dell’informatica, in particolare nel design digitale, parte da un test universitario fallito.
+        Cerco sempre di tenere a mente che tutto ciò che sto creando, studiando o progettando è partito da un passo falso, un fallimento, un bug (per rimanere in tema).
+        Non tutti i mali vengono per nuocere.
+        
+         
+        
+        Deciso a non rimanere con le mani in mano o a concedermi fantomatici “anni sabbatici post liceo”, decisi di iscrivermi ad un corso professionalizzante con indirizzo in Graphic Design, senza aver mai tastato questo mondo da vicino, seguendo unicamente l’istinto.
+        Ne uscirò con il massimo dei voti.
+        
+         
+        
+        Vinta la mia personale scommessa realizzai che avevo trovato pane per i mei denti e soprattutto un percorso per cui realizzarmi professionalmente.
+        Oggi sono uno sviluppatore web in azienda part-time, ed aumento il mio bagaglio culturale quotidianamente.
+        Parallelamente esercito la libera professione (con P.Iva) per committenti privati o tramite agenzie come sviluppatore web, docente di web design e graphic designer.
+        
+         
+        
+        Nel settembre del 2020 ho fondato BilanciaMente, il primo open blog dedicato alla crescita personale attraverso articoli divisi in 3 categorie: Blog – Libri – Esercizi.
+        Lo scopo è quello di creare una community di lettori e scrittori sul tema per condividere informazioni, libri ed esercizi utili alla tua svolta. Dai un’occhiata se sei curioso, cresciamo sempre di più.
+        
+         
+        
+        …il resto del percorso è tutto in salita, ma tutto da percorrere!
+    </p>
+    <h3 class="w3-padding-16">Le mie Skills</h3>
+    <p class="w3-wide">Fotografia</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:95%">74%</div>
+    </div>
+    <p class="w3-wide">Web Design</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:85%">85%</div>
+    </div>
+    <p class="w3-wide">Foto</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:80%">75%</div>
+    </div>
+    <p class="w3-wide">Programmazione</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:85%">88%</div>
+    </div>
+
+
+    <div class="w3-row w3-center w3-dark-grey w3-padding-16 w3-section">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">14+</span><br>
+        Collaboratori e Partner
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">55+</span><br>
+        progetti completati
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">89+</span><br>
+        Clienti Soddisfatti
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">150+</span><br>
+        Riunioni
+      </div>
+    </div>
+
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> Scarica il curriculum
+    </button>
+
+    <!-- Testimonials bello vero l'ho fatto proprio bene anche se ho scopiazzato tanto porca vacca-->
+    <h3 class="w3-padding-24">La mia Reputazione</h3>
+    <img src="/logo rocco siffredi 2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-text-black w3-margin-right">Rocco Siffredi.</span> Amministratore delegato dell'azienda</p>
+    <p>Emanuele Morgillo è semplicemente fantastico. Sono proprio felice di averlo incontrato!</p><br>
+   
+    <img src="/logo jhonny sins.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-text-black w3-margin-right">jhonny sins.</span> Amministratore CEO di BRAZZERS</p>
+    <p>Emanuele Morgillo ci ha salvato da un disastro sulla rete, se non fosse stato per lui milioni di utenti non avrebbero potuto guardare i nostri contenuti.</p><br>
+    
+    <img src="/logo martina smeraldi 2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-text-black w3-margin-right">Martina Smeraldi</span>Modella e attrice hard</p>
+    <p>Nessuno è migliore di Emanuele Morgillo. Ha due attributi enormi ed è instancabile!</p><br>
+    
+    <!-- Grid for pricing tables bello vero l'ho fatto proprio bene anche se ho scopiazzato tanto porca vacca-->
+    <h3 class="w3-padding-16">I Miei Prezzi</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-center w3-card w3-hover-shadow">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Base</li>
+          <li class="w3-padding-16">Progettazione web (Web Design)</li>
+          <li class="w3-padding-16">Foto e Immagini Personalizzate</li>
+          <li class="w3-padding-16">5GB di Spazio </li>
+          <li class="w3-padding-16">Supporto Mail</li>
+          <li class="w3-padding-16">
+            <h2>€ 100</h2>
+            <span class="w3-opacity">Per Mese</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">ISCRIVITI</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-center w3-card w3-hover-shadow">
+          <li class="w3-black w3-xlarge w3-padding-32">Pro Vip Plus</li>
+          <li class="w3-padding-16">Ti porto donne e caffe la mattina</li>
+          <li class="w3-padding-16">Accesso gratis ad ogni sito a pagamento del mondo (Hard inclusi)</li>
+          <li class="w3-padding-16">150.000.000.000.000.000 YOTTABYTE di Spazio libero </li>
+          <li class="w3-padding-16">Supporto Infinito! Ti hackero anche la CASA BIANCA</li>
+          <li class="w3-padding-16">Hackeraggio della CASA BIANCA U.S.A. (VUOI ESSERE IL  PRESIDENTE?? NO PROBLEM!)</li>
+            <h2>€ 250.000.000.000,00</h2>
+            <span class="w3-opacity">per Mese</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Non Perdere Tempo Scegli Questa Opzione O_o</button>
+          </li>
+        </ul>
+      </div>
+    <!-- End Grid/Pricing tables bello vero l'ho fatto proprio bene anche se ho scopiazzato tanto porca vacca-->
+    </div>
+    
+  <!-- End About Section bello vero l'ho fatto proprio bene anche se ho scopiazzato tanto porca vacca-->
+  </div>
+
+  <!-- Contact Section bello vero l'ho fatto proprio bene anche se ho scopiazzato tanto porca vacca-->
+  <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+    <h2>Contattami</h2>
+    <hr class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Chicago (D.Notte street) USA</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Telefono: 123456789</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mail@rocco.com</p>
+    </div>
+    
+    <!-- Image of location/map bello vero l'ho fatto proprio bene anche se ho scopiazzato tanto porca vacca-->
+    <img src="/asdasd.jpg" class="w3-image w3-greyscale" style="width:100%;margin:32px 0">
+   
+    <p>Mettiamoci in contatto. Mandami un messaggio:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Il tuo nome mio caro" required name="il tuo nome mio caro/a"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="La tua Amorevole Email" required name="la tua Amorevole Email"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Oggetto del messaggio da bravo" required name="Oggetto del messaggio da bravo"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Messaggio (Con cuoricino alla fine del testo mi raccomando)" required name="Messaggio (con cuoricino alla fine del testo mi raccomando)"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> Scrivimi dai :3
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section bello vero l'ho fatto proprio bene anche se ho scopiazzato tanto porca vacca -->
+  </div>  
+  
+  <!-- Footer bello vero l'ho fatto proprio bene anche se ho scopiazzato tanto porca vacca -->
+  <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-medium">Powered by <a href="https://www.shopify.com/it/prova-gratuita?term=shopify&adid=565806948469&campaignid=15439903160&branded_enterprise=1&BOID=brand&utm_medium=cpc&utm_source=google&gad_source=1&gclid=Cj0KCQjwy46_BhDOARIsAIvmcwNICm0XYMwtDemTw-eIsx7IUfaHZ9v_9lyvxMz2fuBTZSb6gUyCiaEaAuWlEALw_wcB&cmadid=516586848;cmadvertiserid=10730501;cmcampaignid=26990768;cmplacementid=324286430;cmcreativeid=163722649;cmsiteid=5500011" target="_blank" class="w3-hover-text-green">shopiffy....(dai scherzo)</a></p>
+  <!-- End footer bello vero l'ho fatto proprio bene anche se ho scopiazzato tanto porca vacca-->
+  </footer>
+  
+<!-- END PAGE CONTENT -->
+</div>
+
+<script>
+// Open and close sidebar
+function openNav() {
+  document.getElementById("mySidebar").style.width = "60%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
